@@ -1,11 +1,9 @@
-BODY { background-color: #ffff99 }
+BODY {
+background-image: url("colors_00012.jpg"); }
 /*TABLE { background-color: #0000aa }
 TD { background-color: #ff0000 }*/
 h3 { background-color: #00ff00 }
-p.box {
-   border-bottom: 5px double black;
-     padding-bottom: 5px; /* 内容と線との間隔量 */
-}
+
 div.sample {
 width:750px; height:850px;
 margin:0px; padding:0px; border:1px solid black;
@@ -54,6 +52,9 @@ border-style: double;;
 h3 {
 }
 
+.button {
+    font-size: 25px;
+}
 
 ul {
   margin-left: -1px; /* 一番左のボーダー幅と同じ値の負のマージン */
