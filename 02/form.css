@@ -12,6 +12,14 @@ text-align:justify;
 text-justify: inter-ideograph;
 }
 
+div.sample1 {
+width:1400px; height:750px;
+margin:0px; padding:0px; border:1px solid black;
+background-color:lightgray;
+text-align:justify;
+text-justify: inter-ideograph;
+}
+
 
 span {
 display: inline-block;
