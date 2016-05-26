@@ -35,9 +35,9 @@
 
 　<h1>
     <li><span>電話番号：</span></li>
-    <input type="text" name="1" placeholder="例:0000"　size="2" maxlength="4" style="WIDTH: 120px; HEIGHT: 40px;font-size:30px"required/>-
-    <input type="text" name="2" placeholder="例:1111" size="4" maxlength="4" style="WIDTH: 120px; HEIGHT: 40px;font-size:30px"required/>-
-    <input type="text" name="3" placeholder="例:2222" size="4" maxlength="4" style="WIDTH: 120px; HEIGHT: 40px;font-size:30px"required/>
+    <input type="text" name="1" id="onlyNum" placeholder="例:0000"　size="2" maxlength="4" style="WIDTH: 120px; HEIGHT: 40px;font-size:30px; ime-mode: disabled;"required/>-
+    <input type="text" name="2" id="onlyNum" placeholder="例:1111" size="4" maxlength="4" style="WIDTH: 120px; HEIGHT: 40px;font-size:30px; ime-mode: disabled;"required/>-
+    <input type="text" name="3" id="onlyNum" placeholder="例:2222" size="4" maxlength="4" style="WIDTH: 120px; HEIGHT: 40px;font-size:30px; ime-mode: disabled;"required/>
 </h1>
 
  <h1>
