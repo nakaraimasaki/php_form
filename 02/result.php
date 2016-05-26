@@ -11,9 +11,18 @@
     <p>
     <div class="sample" >
         <h2>下記の内容でよろしいでしょうか？</h2><br>
-<h1>
+<ul>
+        <h1>
+             <li><span>氏名：</span></li>
+             <?php echo $_POST["sei"]." ".$_POST["名"];?>
+         </h1>
+
+         <h1>
+              <li><span>性別：</span></li>
+              <?php echo $_POST["性別"];?>
+          </h1>
  <?php
-    echo "姓：".$_POST["sei"]." "."名：".$_POST["名"]."<br/>"."<br/>";
+    echo "氏名：".$_POST["sei"]." ".$_POST["名"]."<br/>"."<br/>";
     echo "性別：".$_POST["性別"]."<br/>"."<br/>";
     echo "住所：".$_POST["住所"]."<br/>"."<br/>";
     echo "電話番号：".$_POST["1"]."-".$_POST["2"]."-".$_POST["3"]."<br/>"."<br/>";

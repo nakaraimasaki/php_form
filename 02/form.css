@@ -5,47 +5,19 @@ TD { background-color: #ff0000 }*/
 h3 { background-color: #00ff00 }
 
 div.sample {
-width:750px; height:850px;
+width:1400px; height:900px;
 margin:0px; padding:0px; border:1px solid black;
 background-color:lightgray;
 text-align:justify;
 text-justify: inter-ideograph;
 }
 
-div.sample1 {
-width:750px; height:400px;
-margin:-80px; padding:120px; border:1px solid black;
-background-color:lightgray;
-text-align:justify;
-text-justify: inter-ideograph;
-}
-
-div.sample2 {
-width:10\00px; height:400px;
-margin:-80px; padding:120px; border:1px solid black;
-background-color:lightgray;
-text-align:justify;
-text-justify: inter-ideograph;
-}
 
 span {
 display: inline-block;
 width: 11em;
 }
-div.note {
-    text-align:justify;
-    text-justify: inter-ideograph;
 
-  box-shadow: 6px 6px 6px -6px rgba(0,0,0,0.3) inset;
-  background-color: #eee;
-  padding: 1em;
-  top: 500px;
-left: 100px;
-}
-div#nav {
-  overflow: hidden; /* はみ出したものは隠す */
-  _height: 1.5em; /* IE6用。祖先要素に幅や高さが指定していれば必要ないので，今回のサンプルではなくても問題なし。*/
-}
 h1 {
 border-style: double;;
 }
