@@ -27,7 +27,7 @@ width: 11em;
 }
 
 h1 {
-border-style: double;;
+border-style: none none double;;
 }
 h3 {
 }
@@ -44,4 +44,10 @@ li {
   padding: 0 10px;
   display: inline-block;; /* 横並びにさせる */
   border-left: 10px solid #00f; /* 区切り線 */
+}
+
+li1 {
+  padding: 0 10px;
+  display: inline-block;; /* 横並びにさせる */
+  border-left: 1px solid #0000e6; /* 区切り線 */
 }

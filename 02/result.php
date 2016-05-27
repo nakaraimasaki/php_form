@@ -14,32 +14,37 @@
 <ul>
         <h1>
              <li><span>氏名：</span></li>
-             <?php echo $_POST["sei"]." ".$_POST["名"];?>
+             <li1><?php echo $_POST["sei"]." ".$_POST["名"];?></li1>
          </h1>
 
          <h1>
               <li><span>性別：</span></li>
-              <?php echo $_POST["性別"];?>
+              <li1><?php echo $_POST["性別"];?></li1>
           </h1>
 
           <h1>
                <li><span>住所：</span></li>
-               <?php echo $_POST["住所"];?>
+               <li1><?php echo $_POST["住所"];?></li1>
            </h1>
 
            <h1>
                 <li><span>電話番号：</span></li>
-                <?php echo $_POST["1"]."-".$_POST["2"]."-".$_POST["3"];?>
+                <li1><?php echo $_POST["1"]."-".$_POST["2"]."-".$_POST["3"];?></li1>
             </h1>
 
             <h1>
                  <li><span>メールアドレス：</span></li>
-                 <?php echo $_POST["mail"]."＠".$_POST["address"];?>
+                 <li1><?php echo $_POST["mail"]."＠".$_POST["address"];?></li1>
              </h1>
 
              <h1>
                   <li><span>どこで知ったか：</span></li>
-                  <?php if(empty($_POST['where'])==false){
+
+                  <li1><?php
+                  if(empty($_POST['where'])==true){
+                      echo "なし";
+                  }
+                   if(empty($_POST['where'])==false){
                       foreach ($_POST['where'] as $value) {
                           switch (htmlspecialchars($value)) {
                               case '1':
@@ -57,17 +62,17 @@
                           }
                       }
                   }
-                  ?>
+                  ?></li1>
               </h1>
 
               <h1>
                    <li><span>質問カテゴリ：</span></li>
-                   <?php echo $_POST["質問カテゴリ"];?>
+                   <li1><?php echo $_POST["質問カテゴリ"];?></li1>
                </h1>
 
                <h1>
                     <li><span>質問内容：</span></li>
-                    <?php echo $_POST["freeans"];?>
+                    <li1><?php echo $_POST["freeans"];?></li1>
                 </h1>
 <input class="button" type="submit" value="送信" style="WIDTH: 600px; HEIGHT: 60px" />　
 <INPUT class="button" type="button" value="戻る" onClick="history.back()" style="WIDTH: 200px; HEIGHT: 60px">
