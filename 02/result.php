@@ -34,7 +34,7 @@
 
             <h1>
                  <li><span>メールアドレス：</span></li>
-                 <?php echo $_POST["メアド前"]."＠".$_POST["メアド後"];?>
+                 <?php echo $_POST["mail"]."＠".$_POST["address"];?>
              </h1>
 
              <h1>
@@ -43,15 +43,15 @@
                       foreach ($_POST['where'] as $value) {
                           switch (htmlspecialchars($value)) {
                               case '1':
-                                  echo "ネット".",";
+                                  echo "ネット"."  ";
                                   break;
                               case '2':
-                                  echo "口コミ".",";
+                                  echo "口コミ"."  ";
                                   break;
                                   case '3':
-                                        echo "あの辺で".",";
+                                        echo "あの辺で"."  ";
                                         break;
-                                          case '5':
+                                          case '4':
                                                 echo "その辺で";
                                                 break;
                           }
