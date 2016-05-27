@@ -58,8 +58,8 @@
      <li><span>質問カテゴリ：</span></li>
      <select name="質問カテゴリ" style="WIDTH: 150px; HEIGHT: 40px;font-size:30px ">
      <option>クレーム</option>
-     <option>プレデター</option>
-     <option>ラブレター</option>
+     <option>感想</option>
+     <option>お世辞</option>
      <option>適当</option>
  </select>
 </h1>　
